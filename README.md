@@ -1,5 +1,6 @@
 # Student Attendance Management System
 
+
 ## Overview
 
 The Student Attendance Management System is a comprehensive solution designed to streamline and manage student attendance efficiently. The system includes three panels: Student, Staff, and Head of Department (HOD). It allows for generating attendance sheets, as well as adding, removing, and updating courses, subjects, staff, students, and classes.
