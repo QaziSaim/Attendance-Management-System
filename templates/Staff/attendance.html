@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+{% include 'includes/messages.html' %}
+<form action="" method="post" novalidate>
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit">Submit</button>
+</form> 
+<br>
+<div class="col-auto text-right float-right ml-auto">
+   <br>
+    <a href="{% url 'present_report' %}" class="btn btn-outline-primary mr-2"><i class="fas fa-download"></i>Report Download Download</a>
+ </div>
+{% endblock %}
